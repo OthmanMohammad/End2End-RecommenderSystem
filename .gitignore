@@ -1,0 +1,59 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment
+venv/
+env/
+*.venv/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Caches and logs
+__pycache__/
+*.log
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook temporary files
+.nbconvert/
+.ipynb_checkpoints/
+*.html
+
+# Data files
+*.csv
+*.xlsx
+
+# Images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.mp4
+*.avi
+*.mkv
+
+# Model checkpoints and weights
+model/
+*.h5
+*.pth
+*.pkl
+*.weights
+
+# Hugging Face Transformers cache and logs
+transformers/
+.tensorboard/
+wandb/
+*.bin
+
+# Ignore other generated files, such as logs and cache
+*.cache
+*.log
